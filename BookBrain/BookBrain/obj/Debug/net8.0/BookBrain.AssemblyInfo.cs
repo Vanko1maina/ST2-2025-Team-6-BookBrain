@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookBrain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc34319bff9a0bf758b88e833ea47eafae831092")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06e5af83ed5a1da434854961e242933843f74608")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookBrain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookBrain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
