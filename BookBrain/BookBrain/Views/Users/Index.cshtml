@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BookBrain.Models.User>
+
+@{
+    ViewData["Title"] = "Потребители";
+}
+
+<div class="container mt-4">
+    <h2>👤 Списък с потребители</h2>
+    <a href="/Users/Create" class="btn btn-success mb-3">➕ Добави потребител</a>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Име</th>
+                <th>Имейл</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

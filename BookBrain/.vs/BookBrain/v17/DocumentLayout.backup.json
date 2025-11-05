@@ -3,16 +3,88 @@
   "WorkspaceRootPath": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\loans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\loans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\services\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\services\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\loans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\loans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\services\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\services\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|d:\\bookbrain\\st2-2025-team-6-bookbrain\\bookbrain\\bookbrain\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E60F6E-1DBA-4E91-A5E3-6ECC4FC732C8}|BookBrain\\BookBrain.csproj|solutionrelative:bookbrain\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +94,271 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Books\\Details.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAC2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T16:38:14.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Loans\\Create.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Loans\\Create.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Loans\\Create.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Loans\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T15:43:39.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Loans\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Loans\\Index.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Loans\\Index.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Loans\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T15:43:10.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Books\\Index.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T15:37:31.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Program.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Program.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Program.cs",
+              "RelativeToolTip": "BookBrain\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:15:15.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Services\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Services\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Services\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "BookBrain\\Services\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:26:48.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookBrain\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwFcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:29:03.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Models\\Book.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Models\\Book.cs",
+              "RelativeToolTip": "BookBrain\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T11:32:58.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Books\\Create.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T15:38:04.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T15:38:31.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T15:39:32.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T15:33:58.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "BookBrain\\Views\\Users\\Create.cshtml",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "BookBrain\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T15:41:43.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\appsettings.json",
+              "RelativeDocumentMoniker": "BookBrain\\appsettings.json",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\appsettings.json",
+              "RelativeToolTip": "BookBrain\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T15:42:29.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Controllers\\LoansController.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "BookBrain\\Controllers\\LoansController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:32:36.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Services\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Services\\Repositories\\IRepository.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Services\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "BookBrain\\Services\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:26:08.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BookBrain\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:20:40.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "BookBrain\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:31:25.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BookBrain\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BookBrain\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:28:30.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Loan.cs",
               "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Models\\Loan.cs",
               "RelativeDocumentMoniker": "BookBrain\\Models\\Loan.cs",
               "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Models\\Loan.cs",
               "RelativeToolTip": "BookBrain\\Models\\Loan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T11:34:00.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 19,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Models\\User.cs",
               "RelativeDocumentMoniker": "BookBrain\\Models\\User.cs",
@@ -48,19 +367,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T11:33:33.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "BookBrain\\Models\\Book.cs",
-              "ToolTip": "D:\\bookbrain\\ST2-2025-Team-6-BookBrain\\BookBrain\\BookBrain\\Models\\Book.cs",
-              "RelativeToolTip": "BookBrain\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T11:32:58.18Z",
               "EditorCaption": ""
             }
           ]

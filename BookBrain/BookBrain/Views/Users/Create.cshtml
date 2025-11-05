@@ -1,0 +1,21 @@
+﻿@model BookBrain.Models.User
+
+@{
+    ViewData["Title"] = "Добави потребител";
+}
+
+<div class="container mt-4">
+    <h2>➕ Добави нов потребител</h2>
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label>Име</label>
+            <input asp-for="Name" class="form-control" placeholder="Име на потребителя" />
+        </div>
+        <div class="form-group mt-2">
+            <label>Имейл</label>
+            <input asp-for="Email" class="form-control" placeholder="Email адрес" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">💾 Запиши</button>
+        <a href="/Users" class="btn btn-secondary mt-3">🔙 Назад</a>
+    </form>
+</div>

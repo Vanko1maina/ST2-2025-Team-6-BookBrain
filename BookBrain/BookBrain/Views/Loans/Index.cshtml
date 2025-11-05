@@ -1,0 +1,34 @@
+﻿@model IEnumerable<BookBrain.Models.Loan>
+
+@{
+    ViewData["Title"] = "Заеми";
+}
+
+<div class="container mt-4">
+    <h2>📅 Активни заеми</h2>
+    <a href="/Loans/Create" class="btn btn-success mb-3">➕ Нов заем</a>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>BookId</th>
+                <th>UserId</th>
+                <th>LoanDate</th>
+                <th>ReturnDate</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var loan in Model)
+            {
+                <tr>
+                    <td>@loan.Id</td>
+                    <td>@loan.BookId</td>
+                    <td>@loan.UserId</td>
+                    <td>@loan.LoanDate.ToShortDateString()</td>
+                    <td>@loan.ReturnDate?.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

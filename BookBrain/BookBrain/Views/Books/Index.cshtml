@@ -1,0 +1,94 @@
+﻿@model IEnumerable<BookBrain.Models.Book>
+
+@{
+    ViewData["Title"] = "📚 Списък с книги";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-primary">📚 Списък с книги</h2>
+        <a asp-action="Create" class="btn btn-success btn-lg rounded-pill shadow-sm">
+            ➕ Добави книга
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center py-4 rounded-4 shadow-sm">
+            <strong>Няма добавени книги.</strong>
+            Натисни бутона <b>„Добави книга“</b>, за да добавиш първата!
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-body p-0">
+                <table class="table table-hover mb-0 align-middle text-center">
+                    <thead class="bg-primary text-white">
+                        <tr>
+                            <th class="py-3">ID</th>
+                            <th>Заглавие</th>
+                            <th>Автор</th>
+                            <th>Жанр</th>
+                            <th style="max-width: 250px;">Описание</th>
+                            <th>Действия</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var book in Model)
+                        {
+                            <tr class="border-bottom">
+                                <td class="fw-semibold">@book.Id</td>
+                                <td class="text-start">@book.Title</td>
+                                <td>@book.Author</td>
+                                <td>@book.Genre</td>
+                                <td class="text-muted text-start" style="max-width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                                    @book.Description
+                                </td>
+                                <td class="text-center">
+                                    <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-outline-info btn-sm rounded-pill px-3">👁️</a>
+                                    <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-warning btn-sm rounded-pill me-1">✏️</a>
+                                    <form asp-action="Delete" asp-route-id="@book.Id" method="post" style="display:inline;">
+                                        <button type="submit" class="btn btn-danger btn-sm rounded-pill" style="background: none; border: none;"
+                                                onclick="return confirm('Сигурни ли сте, че искате да изтриете тази книга?');">
+                                            🗑️
+                                        </button>
+                                    </form>
+                                </td>              
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    /* Малко подобрение на изгледа */
+    body {
+        background-color: #f8f9fa;
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    th {
+        font-weight: 600;
+    }
+
+    td, th {
+        vertical-align: middle !important;
+    }
+
+    .card {
+        overflow: hidden;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f2f7ff;
+        transition: background-color 0.3s ease;
+    }
+</style>

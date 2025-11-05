@@ -1,0 +1,25 @@
+﻿@model BookBrain.Models.Loan
+
+@{
+    ViewData["Title"] = "Нов заем";
+}
+
+<div class="container mt-4">
+    <h2>➕ Нов заем</h2>
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label>ID на книга</label>
+            <input asp-for="BookId" class="form-control" />
+        </div>
+        <div class="form-group mt-2">
+            <label>ID на потребител</label>
+            <input asp-for="UserId" class="form-control" />
+        </div>
+        <div class="form-group mt-2">
+            <label>Дата на заем</label>
+            <input asp-for="LoanDate" class="form-control" type="date" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">💾 Запиши</button>
+        <a href="/Loans" class="btn btn-secondary mt-3">🔙 Назад</a>
+    </form>
+</div>
