@@ -1,8 +1,10 @@
 ﻿@model BookBrain.Models.User
 
-<h2 class="mb-4">➕ Добави нов потребител</h2>
+<h2 class="mb-4">✏️ Редакция на потребител</h2>
 
-<form asp-action="Create" method="post" class="p-4 border rounded shadow-sm bg-light">
+<form asp-action="Edit" method="post" class="p-4 border rounded shadow-sm bg-light">
+    <input type="hidden" asp-for="Id" />
+
     <div class="mb-3">
         <label asp-for="FirstName" class="form-label fw-bold"></label>
         <input asp-for="FirstName" class="form-control" />
@@ -21,6 +23,11 @@
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-success">💾 Запиши</button>
+    <div class="mb-3">
+        <label asp-for="RegisteredAt" class="form-label fw-bold"></label>
+        <input asp-for="RegisteredAt" class="form-control" readonly />
+    </div>
+
+    <button type="submit" class="btn btn-primary">💾 Запази промените</button>
     <a asp-action="Index" class="btn btn-secondary">⬅️ Назад</a>
 </form>

@@ -4,6 +4,8 @@ using Microsoft.Extensions.Hosting;
 using BookBrain.Data;
 using Microsoft.EntityFrameworkCore;
 using BookBrain.Services.Repositories;
+using BookBrain.Data.Repositories;
+using BookBrain.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 //  Регистрация на Repository за всички типове (Book, User, Loan)
 builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IRepository<Loan>, LoanRepository>();
 
 var app = builder.Build();
 
