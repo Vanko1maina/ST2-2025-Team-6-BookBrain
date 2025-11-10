@@ -17,6 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 //  Регистрация на Repository за всички типове (Book, User, Loan)
 builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IRepository<Loan>, LoanRepository>();
+builder.Services.AddScoped<BookBrain.Services.Adapters.IAIAdapter, BookBrain.Services.Adapters.GPT4AllAdapter>();
 
 var app = builder.Build();
 

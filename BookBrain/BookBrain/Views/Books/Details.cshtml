@@ -7,11 +7,11 @@
 <div class="container mt-5">
     <h2 class="fw-bold text-primary mb-4 text-center">📖 Детайли за книгата</h2>
 
-    <div class="card shadow-sm border-0 rounded-4 p-4" style="max-width: 750px; margin: 0 auto; background-color: #fafafa;">
+    <div class="card shadow-sm border-0 rounded-4 p-4 details-card">
         <table class="table table-borderless mb-4 align-middle">
             <tbody>
                 <tr>
-                    <th class="text-end text-secondary fw-bold" style="width: 180px;">ID:</th>
+                    <th class="text-end text-secondary fw-bold">ID:</th>
                     <td>@Model.Id</td>
                 </tr>
                 <tr>
@@ -29,29 +29,45 @@
                 <tr>
                     <th class="text-end text-secondary fw-bold align-top pt-3">Описание:</th>
                     <td class="align-top">
-                        <textarea class="form-control bg-white shadow-sm text-start"
-                                  rows="6"
-                                  readonly
-                                  style="resize: none; line-height: 1.5; font-size: 1rem; text-align: left; vertical-align: top; white-space: pre-wrap;">@Model.Description</textarea>
+                        <div class="description-box">@Model.Description</div>
                     </td>
                 </tr>
             </tbody>
         </table>
 
-        <div class="text-center mt-4">
-            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning px-4 rounded-pill me-2 shadow-sm">
+        <div class="d-flex justify-content-center gap-2 flex-wrap mt-4">
+
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning px-4 rounded-pill shadow-sm">
                 ✏️ Редактирай
             </a>
+
             <a asp-action="Index" class="btn btn-outline-secondary px-4 rounded-pill shadow-sm">
-                ⬅️ Назад към списъка
+                ⬅️ Назад
             </a>
-        </div><br>
+
+            <form asp-controller="AI" asp-action="Summarize" method="post" id="aiSummarizeForm">
+                <input type="hidden" name="description" value="@Model.Description" />
+                <a href="#"
+                   class="btn btn-primary px-4 rounded-pill shadow-sm"
+                   onclick="document.getElementById('aiSummarizeForm').submit(); return false;">
+                    ֎ AI Резюме
+                </a>
+            </form>
+
+        </div>
+        <br>
     </div>
 </div>
 
 <style>
     body {
         background-color: #f5f6f7;
+    }
+
+    .details-card {
+        max-width: 750px;
+        margin: 0 auto;
+        background-color: #fafafa;
     }
 
     th {
@@ -65,8 +81,16 @@
         vertical-align: top !important;
     }
 
-    textarea {
+    .description-box {
         font-family: 'Segoe UI', sans-serif;
+        background-color: #ffffff; /* Леко по-светло от фона на картата */
+        border: 1px solid #e9ecef; /* Много лека рамка */
+        border-radius: .375rem; /* Стандартен Bootstrap border-radius */
+        padding: 0.75rem 1rem; /* Отстояние */
+        line-height: 1.6; /* По-добро междуредие */
+        white-space: pre-wrap; /* Запазва новите редове от описанието */
+        max-height: 250px; /* Ограничава височината при дълги текстове */
+        overflow-y: auto; /* Добавя скрол, ако е нужно */
         text-align: left;
     }
 
