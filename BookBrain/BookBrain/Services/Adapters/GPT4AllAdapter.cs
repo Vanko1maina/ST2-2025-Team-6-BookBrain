@@ -9,16 +9,16 @@ namespace BookBrain.Services.Adapters
 
         public async Task<string> GetBookSummaryAsync(string description)
         {
-            _client.Timeout = TimeSpan.FromSeconds(300);
+            _client.Timeout = TimeSpan.FromSeconds(1000);
             var request = new
             {
-                model = "q4_0-orca-mini-3b.gguf",
+                model = "meta-llama-3-8b-instruct-gguf",
                 messages = new[]
                 {
                     new { role = "system", content = "Ти си асистент, който прави кратки резюмета на книги." },
                     new { role = "user", content = $"Резюмирай накратко следния текст на български: {description}" }
                 },
-                max_tokens = 200
+                max_tokens = 1000
             };
 
             var response = await _client.PostAsJsonAsync("http://localhost:4891/v1/chat/completions", request);

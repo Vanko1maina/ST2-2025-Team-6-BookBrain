@@ -13,14 +13,12 @@ namespace BookBrain.Controllers
             _repo = repo;
         }
 
-        // Списък с всички книги
         public async Task<IActionResult> Index()
         {
             var books = await _repo.GetAllAsync();
             return View(books);
         }
 
-        // Детайли за книга
         public async Task<IActionResult> Details(int id)
         {
             var book = await _repo.GetByIdAsync(id);
@@ -30,14 +28,12 @@ namespace BookBrain.Controllers
             return View(book);
         }
 
-        // Добавяне на книга (GET)
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        // Добавяне на книга (POST)
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Book book)
@@ -51,7 +47,6 @@ namespace BookBrain.Controllers
             return View(book);
         }
 
-        // Редактиране на книга (GET)
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
@@ -62,7 +57,6 @@ namespace BookBrain.Controllers
             return View(book);
         }
 
-        // Редактиране на книга (POST)
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Book book)
@@ -79,7 +73,6 @@ namespace BookBrain.Controllers
             return View(book);
         }
 
-        // Изтриване на книга
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {

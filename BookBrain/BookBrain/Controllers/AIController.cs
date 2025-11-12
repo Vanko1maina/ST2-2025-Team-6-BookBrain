@@ -10,7 +10,6 @@ namespace BookBrain.Controllers
 
         public AIController()
         {
-            // Използваме GPT4All вместо Ollama
             var adapter = new GPT4AllAdapter();
             _aiService = AIService.GetInstance(adapter);
         }
